@@ -1,0 +1,26 @@
+{
+  "repository": {},
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "purge": "purgecss --css css/*.css --content index.html --output docs/css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^8.1.1",
+    "css-loader": "^5.2.4",
+    "file-loader": "^6.2.0",
+    "glob-all": "^3.2.1",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.5.0",
+    "postcss-loader": "^5.2.0",
+    "purgecss": "^4.0.3",
+    "purgecss-webpack-plugin": "^4.0.3",
+    "webpack": "^5.35.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.6.0"
+  }
+}
