@@ -27,12 +27,7 @@ module.exports = (env, options) => ({
       {
         test: /\.css$/,
         use: [
-          { 
-            loader: MiniCssExtractPlugin.loader,
-            options: {
-              publicPath: '/'
-            }
-          },
+          MiniCssExtractPlugin.loader,
           'css-loader'
         ]
       },
@@ -64,7 +59,7 @@ module.exports = (env, options) => ({
       filename: 'index.html',
       template: 'src/views/index.ejs'
     }),
-    new MiniCssExtractPlugin({filename: 'css/[name].css'}),
+    new MiniCssExtractPlugin({filename: '[name].css'}),
     new PurgecssPlugin({
       paths: glob.sync([`${path.join(__dirname, 'src', 'assets', 'css')}/**/*`, './src/views/index.ejs'], { nodir: true })
     }),
