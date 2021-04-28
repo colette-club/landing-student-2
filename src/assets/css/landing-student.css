@@ -1972,7 +1972,6 @@ figcaption {
   width: 50%;
   margin-top: 20px;
   margin-right: 0px;
-  margin-left: 60px;
   padding: 40px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1991,8 +1990,6 @@ figcaption {
 .div-block-10.margin {
   width: 80%;
   max-width: 700px;
-  margin-right: 20px;
-  margin-left: 0px;
 }
 
 .paragraph {
@@ -2038,8 +2035,7 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   width: 50%;
-  margin-right: 40px;
-  margin-left: 100px;
+  margin: 0 5%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2187,6 +2183,26 @@ figcaption {
   height: 1280px;
 }
 
+.section-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90vh;
+  max-width: 800px;
+  margin: 0 5%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Larsseit, sans-serif;
+}
+
 .intro-text-copy {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2195,11 +2211,7 @@ figcaption {
   width: 50%;
   height: 90vh;
   max-width: 800px;
-  margin-right: auto;
-  margin-bottom: 0px;
-  margin-left: auto;
-  padding-right: 80px;
-  padding-left: 80px;
+  margin: 0 5%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2532,7 +2544,8 @@ figcaption {
   }
 
   .heading-jumbo-small.margin2 {
-    width: 100%;
+    width: 80%;
+    margin: 0 5% 20px 5%;
   }
 
   .logo-link.w--current {
@@ -2873,10 +2886,6 @@ figcaption {
     margin-left: auto;
   }
 
-  .div-block-10.margin {
-    width: 90%;
-  }
-
   .testimonials {
     width: 100%;
   }
@@ -2953,8 +2962,7 @@ figcaption {
   }
 
   .div-block-20 {
-    margin-right: 0px;
-    padding-left: 40px;
+    margin: 0 auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -2999,6 +3007,11 @@ figcaption {
   }
 
   .section-1.cc-store-home-wrap {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .margin-wrapper {
     margin-right: 15px;
     margin-left: 15px;
   }
@@ -3313,11 +3326,11 @@ figcaption {
   }
 
   .intro-text-copy {
-    width: 100%;
+    width: 90%;
     height: 500px;
     margin-top: 60px;
-    padding-right: 40px;
-    padding-left: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -3432,10 +3445,6 @@ figcaption {
     margin-top: 0px;
     margin-bottom: 20px;
     line-height: 30px;
-  }
-
-  .heading-jumbo-small.margin2 {
-    margin-bottom: 0px;
   }
 
   .menu {
@@ -3717,8 +3726,8 @@ figcaption {
   }
 
   .div-block-10.margin {
-    width: 100%;
-    margin-right: auto;
+    width: 80%;
+    margin: 20px auto 0 auto;
   }
 
   .testimonials {
@@ -3745,7 +3754,6 @@ figcaption {
   }
 
   .div-block-12 {
-    width: 85%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -3796,11 +3804,8 @@ figcaption {
   }
 
   .intro-text-copy {
-    width: 85%;
+    width: 90%;
     height: 400px;
-    margin-top: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -3911,8 +3916,6 @@ figcaption {
   }
 
   .div-block-20 {
-    margin-right: 0px;
-    padding-left: 0px;
     -webkit-box-align: end;
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
